@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/ban3e/vue-gallery.git",
+      "/home/blindspot/PROJECTS/perevozki_spa-v2"
+    ]
+  ],
+  "_from": "git+https://github.com/ban3e/vue-gallery.git",
+  "_id": "vue-gallery@git+https://github.com/ban3e/vue-gallery.git#e4c398cb016f12397b9102b2731d02ed13cf5a76",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/vue-gallery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/ban3e/vue-gallery.git",
+    "rawSpec": "git+https://github.com/ban3e/vue-gallery.git",
+    "saveSpec": "git+https://github.com/ban3e/vue-gallery.git",
+    "fetchSpec": "https://github.com/ban3e/vue-gallery.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ban3e/vue-gallery.git#e4c398cb016f12397b9102b2731d02ed13cf5a76",
+  "_spec": "git+https://github.com/ban3e/vue-gallery.git",
+  "_where": "/home/blindspot/PROJECTS/perevozki_spa-v2",
+  "author": {
+    "name": "Igor Ognichenko",
+    "email": "ognichenko.igor@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/RobinCK/vue-gallery/issues"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/vue-gallery"
+  },
+  "dependencies": {
+    "blueimp-gallery": "^2.33.0",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "description": "VueJS responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^5.13.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-vue": "4.7.1",
+    "vue-template-compiler": "^2.6.4"
+  },
+  "homepage": "https://github.com/RobinCK/vue-gallery#readme",
+  "jsnext:main": "src/index.js",
+  "keywords": [
+    "vue-gallery",
+    "vuejs-gallery",
+    "vue",
+    "vuejs",
+    "gallery",
+    "images",
+    "pictures",
+    "carousel",
+    "slider",
+    "mobile",
+    "touch",
+    "vue-plugin",
+    "vue-component"
+  ],
+  "license": "MIT",
+  "main": "dist/js/vue-gallery.js",
+  "name": "vue-gallery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinCK/vue-gallery.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production node_modules/.bin/rollup -c ./build/rollup.config.js && NODE_ENV=production BUILD_MODE=minify node_modules/.bin/rollup -c ./build/rollup.config.js",
+    "lint": "eslint ./",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
+    "postinstall": "opencollective-postinstall || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "unpkg": "dist/js/vue-gallery.min.js",
+  "version": "2.0.1"
+}
